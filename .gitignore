@@ -1,0 +1,52 @@
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+firebase-service-account.json
+service-account*.json
+secrets/
+# Flutter generated files
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Native generated files
+**/ephemeral/
+**/.cxx/
+**/.plugin_symlinks/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+secrets/
+firebase-service-account.json
+service-account*.json
+*.jks
+*.keystore
+key.properties
+*.pem
+*.key
+
+# Unnecessary duplicate files
+lib.zip
+README.txt
+flutter_code_review.txt
